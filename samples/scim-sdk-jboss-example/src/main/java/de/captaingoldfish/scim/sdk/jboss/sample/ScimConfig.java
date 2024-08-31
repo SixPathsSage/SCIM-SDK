@@ -2,8 +2,8 @@ package de.captaingoldfish.scim.sdk.jboss.sample;
 
 import java.util.Collections;
 
-import javax.annotation.PostConstruct;
-import javax.ejb.Stateless;
+import jakarta.annotation.PostConstruct;
+import jakarta.ejb.Stateless;
 
 import de.captaingoldfish.scim.sdk.common.resources.ServiceProvider;
 import de.captaingoldfish.scim.sdk.common.resources.complex.BulkConfig;

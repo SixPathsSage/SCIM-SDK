@@ -177,12 +177,6 @@
             </dependency>
             <!-- end json libraries -->
             <dependency>
-                <groupId>javax.ws.rs</groupId>
-                <artifactId>javax.ws.rs-api</artifactId>
-                <version>${version.ws.rs.api}</version>
-                <optional>true</optional>
-            </dependency>
-            <dependency>
                 <groupId>jakarta.ws.rs</groupId>
                 <artifactId>jakarta.ws.rs-api</artifactId>
                 <version>${version.jakarta.ws.rs.api}</version>
@@ -227,10 +221,11 @@
                 <artifactId>javassist</artifactId>
                 <version>${version.javassist}</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api -->
             <dependency>
-                <groupId>org.jboss.spec.javax.xml.bind</groupId>
-                <artifactId>jboss-jaxb-api_2.3_spec</artifactId>
-                <version>${version.jboss.jaxb.api}</version>
+                <groupId>jakarta.xml.bind</groupId>
+                <artifactId>jakarta.xml.bind-api</artifactId>
+                <version>4.0.2</version>
             </dependency>
 
             <!-- logging dependencies -->
